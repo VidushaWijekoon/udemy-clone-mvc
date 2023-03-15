@@ -1,0 +1,25 @@
+-- Pages --
+
+Home
+Signup - Login
+View Course by Category
+Course Search
+Course Full View
+Course Pay Pages
+Course Ratings
+Messaging
+My Courses(Instructor) - My Courses(Student)
+Cart - Whistlist - Checout 
+Upload Courses
+Instructor Dashboard (Sales Status)
+Profile
+Account Setting
+Instructor Public Profile
+
+-- Super Admin --
+- All Courses
+- All Users
+- All Instructors
+- Course Approval
+- Manage Course Promos
+- Manage User Roles
