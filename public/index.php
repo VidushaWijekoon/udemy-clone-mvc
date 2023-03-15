@@ -1,1 +1,6 @@
-<h1>Udemy - Clone</h1>
+<?php
+session_start();
+require '../app/core/init.php';
+
+
+$app = new App();
