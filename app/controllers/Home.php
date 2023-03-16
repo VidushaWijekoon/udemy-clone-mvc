@@ -3,12 +3,21 @@
 /**
  * home class
  */
-class Home
+class Home extends Controller
 {
 
     public function index()
     {
-        echo "home view page ";
+        // $db = new Database();
+
+        // $res = $db->query('SELECT * FROM users', [], 'array');
+        // show($res);
+
+        // $users = new User();
+        // $users->insert($data);
+
+        $data['title'] = 'This is my homepage';
+        $this->view('home', $data);
     }
 
     public function edit()

@@ -3,11 +3,12 @@
 /**
  * 404 class page not found
  */
-class _404
+class _404 extends Controller
 {
 
     function index()
     {
-        echo "page not found";
+        $data['title'] = '404';
+        $this->view('404', $data);
     }
 }
